@@ -1,5 +1,5 @@
 import './App.css';
-import emojis from "./data.js"
+import Emoji from "./Emoji"
 
 
 const sampleEmoji =   {
@@ -14,6 +14,7 @@ function App() {
         <div className="App">
             <h1>Emojis</h1>
             <div className="row">
+            <Emoji/>
 
             </div>
         </div>
