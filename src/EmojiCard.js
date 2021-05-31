@@ -1,12 +1,20 @@
 import React from 'react'
 
-function EmojiCard() {
+const EmojiCard =  {
+    "title": "Grinning",
+    "symbol": " ",
+    "keywords": "grinning face happy smiley emotion emotion"
+
+};
+
+function App() {
     return (
-        fdsfsdfdsfsdfdf
         <div>
             
         </div>
     )
+
+
 }
 
 export default EmojiCard
