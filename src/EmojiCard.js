@@ -1,4 +1,5 @@
 import React from 'react'
+import Emoji from './Emoji';
 
 const EmojiCard =  {
     "title": "Grinning",
@@ -9,7 +10,9 @@ const EmojiCard =  {
 
 function App() {
     return (
-        <div>
+        <div className="card card-emoji">
+         <h3>{title}</h3>  
+        <EmojiCard />
             
         </div>
     )

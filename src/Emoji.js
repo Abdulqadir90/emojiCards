@@ -1,6 +1,6 @@
 import React from "react";
 
-function Emoji({symbol}) {
+function Emoji() {
     return (
         <div className="Emoji">
             "😀"
